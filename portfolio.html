@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon_io/favicon-32x32.png" type="image/x-icon">
+
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <a href="#"><img src="logos/download (5).png" alt="Logo"></a>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#" class="active">Home</a></li>
+            <li><a href="#" id="about-link">profile</a></li>
+            <!-- <li><a href="#">Services</a></li> -->
+            <li><a href="#" id="contact-link">Contact</a></li>
+        </ul>
+        <div class="search-box">
+            <input type="text" placeholder="Search...">
+            <button type="submit"><i class="fas fa-search"></i></button>
+            
+        </div>
+        <div class="login">
+            <a href="login.html">login</a>
+        </div>
+    </nav>
+    <div class="container">
+
+        <div class="left">
+            <h3>
+                <center>Jyothy institute of technology</center>
+            </h3>
+            <hr style="color: 2px solid red;">
+            <p class="para-verse-1">
+                <img src="jyothy-institute.png" alt="Jyothy Institute of Technology" class="profile-photo">
+            <h5>
+                <div class="typing-container">
+                    <span id="typed-text">
+                    </span> <span class="cursor">|</span>
+                </div>
+            </h5>
+            </p>
+        </div>
+        <div class="right">
+            <h2>My Journey & Projects</h2>
+            <img src="my profile.jpg" alt="Your Name" class="profile-photo">
+            <p>Hello! I'm <b><i>Vishnuvardhana.S</i></b>, a passionate and dedicated individual with a strong background in Computer Science and Engineering. I am currently pursuing my studies at Jyothy Institute of Technology, where I am honing my skills and knowledge to make a significant impact in the world.</p>
+        
+            <h3>Skills</h3>
+            <ul>
+                <li>Programming Languages: Python, Java, C/C++</li>
+                <li>Web Development: HTML, CSS, JavaScript</li>
+                <li>Data Analysis: SQL, Excel</li>
+            </ul>
+        
+            <h3>Projects</h3>
+            <ul>
+                <!-- <li><strong>Project 1:</strong> Developed a web application for managing student records using HTML, CSS, and JavaScript.</li> -->
+                 WILL BE UPDATED LATER....
+            </ul>
+        
+           
+            <h3>Contact Me</h3>
+            <p>If you'd like to connect or learn more about my work, feel free to reach out:</p>
+            <ul class="contact-icons">
+                <li><a href="mailto:Vforce732006@gmail.com"><i class="fas fa-envelope"></i> Email</a></li>
+                <li><a href="https://www.linkedin.com/in/vishnuvardhana-s-887154341/" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a></li>
+                <li><a href="https://github.com/Vishnuvforce" target="_blank"><i class="fab fa-github"></i> GitHub</a></li>
+            </ul>
+        </div>
+
+        
+    </div>
+
+    <div class="popup-box" id="about-popup">
+        <h2>About Me</h2>
+        <img src="my profile.jpg" alt="Your Name" class="profile-photo">
+        <p>Hello! I'm <b>Vishnuvardhana.S</b>, a passionate and dedicated individual with a strong background in
+            <b>C.S.E</b>. I am currently pursuing my studies at Jyothy Institute of Technology, where I am honing my
+            skills and knowledge to make a significant impact in the world.</p>
+        <p>I have a keen interest in games-basket ball ,volly ball etc. I do like gaming especially valorant(one of my
+            favourite game), and I am always eager to learn and explore new opportunities. My goal is to leverage my
+            education and experiences to contribute positively to society and drive innovation in my field.</p>
+        <p>In addition to my academic pursuits, I actively participate in various extracurricular activities, including
+            E-sports,dance,gameathon,etc., which have helped me develop a well-rounded skill set and a strong sense of
+            teamwork and leadership.</p>
+        <p>Feel free to connect with me to learn more about my journey and aspirations. Let's make a difference
+            together!</p>
+        <button onclick="closePopup()">Close</button>
+    </div>
+
+    <div class="contact" id="contact-popup">
+        <label for="number">
+            Contact:
+        </label>
+        <a>9380443023</a>
+        <br>
+        <label for="email">E-mail: </label>
+        <a href="mailto:Vforce732006@gmail.com">Vforce732006@gmail.com</a>
+        <br>
+        <button onclick="closeContact()">Close</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
